@@ -16,3 +16,6 @@ export type { WebFetchInput, WebFetchOutput } from './WebFetchTool';
 
 export { APITool, APIInputSchema, APIOutputSchema } from './APITool';
 export type { APIInput, APIOutput } from './APITool';
+
+export { BrowserTool, BrowserInputSchema } from './BrowserTool';
+export type { BrowserInput, BrowserOutput } from './BrowserTool';
