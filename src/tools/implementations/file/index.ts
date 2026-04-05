@@ -24,6 +24,20 @@ export type { FileDeleteInput, FileDeleteOutput } from './FileDeleteTool';
 export { FileRenameTool, FileRenameInputSchema, FileRenameOutputSchema } from './FileRenameTool';
 export type { FileRenameInput, FileRenameOutput } from './FileRenameTool';
 
+// Multi-File Operations
+export { MultiFileEditTool, MultiFileEditInputSchema, MultiFileEditOutputSchema } from './MultiFileEditTool';
+export type {
+  MultiFileEditInput,
+  MultiFileEditOutput,
+  FileOperation,
+  EditOperation,
+  CreateOperation,
+  DeleteOperation,
+  RenameOperation,
+  OperationResult,
+  Conflict,
+} from './MultiFileEditTool';
+
 // Directory Operations
 export { DirectoryListTool, DirectoryListInputSchema, DirectoryListOutputSchema, DirectoryEntrySchema } from './DirectoryListTool';
 export type { DirectoryListInput, DirectoryListOutput, DirectoryEntry } from './DirectoryListTool';
